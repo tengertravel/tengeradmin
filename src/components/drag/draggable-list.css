@@ -1,0 +1,19 @@
+ul, li{
+    list-style-type: none;
+}
+.draggable-list{
+    
+}
+.draggable-list_item{
+    padding: 10px, 0;
+    border-top: 2px solid transparent;
+}
+.draggable-list_item * {
+    pointer-events: none;
+}
+.draggable-list_item.dragstart {
+    opacity: 0.5
+} 
+.draggable-list_item.dragover {
+    border-top-color: green;
+} 
